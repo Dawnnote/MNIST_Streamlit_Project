@@ -10,3 +10,4 @@ opencv-python
 pyautogui
 openpyxl
 streamlit_vertical_slider
+os
