@@ -5,11 +5,12 @@ from streamlit_drawable_canvas import st_canvas
 import numpy as np
 import tensorflow as ts
 import random  
-import pyautogui
+
 import os
-
 os.environ['DISPLAY'] = ':0'
+os.environ['XAUTHORITY']='/run/user/1000/gdm/Xauthority'
 
+import pyautogui
 
 disable_btn=False
 
