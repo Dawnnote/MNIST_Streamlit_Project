@@ -6,6 +6,9 @@ import numpy as np
 import tensorflow as ts
 import random  
 import pyautogui
+import os
+
+os.environ.get('DISPLAY') is None
 
 
 disable_btn=False
