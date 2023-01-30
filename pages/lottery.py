@@ -8,7 +8,7 @@ import random
 import pyautogui
 import os
 
-os.environ.get('DISPLAY') is None
+os.environ['DISPLAY'] = ':0'
 
 
 disable_btn=False
