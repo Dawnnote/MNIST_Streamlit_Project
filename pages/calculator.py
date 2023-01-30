@@ -5,6 +5,9 @@ from streamlit_drawable_canvas import st_canvas
 import numpy as np
 import random
 import pyautogui
+import os
+
+os.environ.get('DISPLAY') is None
 
 @st.cache(allow_output_mutation=True)
 def load():
