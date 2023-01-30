@@ -5,10 +5,13 @@ from streamlit_drawable_canvas import st_canvas
 import numpy as np
 import pandas as pd
 from io import BytesIO
-import pyautogui
-import os
 
+import os
 os.environ['DISPLAY'] = ':0'
+os.environ['XAUTHORITY']='/run/user/1000/gdm/Xauthority'
+
+import pyautogui
+
 
 @st.cache(allow_output_mutation=True)
 def load():
