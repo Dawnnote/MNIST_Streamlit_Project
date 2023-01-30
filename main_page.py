@@ -5,9 +5,6 @@ from streamlit_drawable_canvas import st_canvas
 import numpy as np
 from streamlit_vertical_slider import vertical_slider
 from utils import set_bg
-import os
-
-os.environ.get('DISPLAY') is None
 
 set_bg('images/mnist2.png')
 
