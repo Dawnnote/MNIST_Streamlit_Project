@@ -8,7 +8,7 @@ from io import BytesIO
 import pyautogui
 import os
 
-os.environ.get('DISPLAY') is None
+os.environ['DISPLAY'] = ':0'
 
 @st.cache(allow_output_mutation=True)
 def load():
